@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Vegetable prediction</title>
+</head>
+<body style="background-image: url(../static/pexels-hiran-jay-7778287.jpg); object-fit: cover; background-size: cover;">
+<h1 style="text-align: center; font-size: 50px;color: white;">Flower Prediction</h1><br><br>
+<div style="margin-left: 550px;">
+<form action="/upload" method="post" enctype="multipart/form-data">
+<label style="font-size: 30px;color: aliceblue;">Choose the image </label>
+<input type="file" name="file"><br><br>
+<input type="submit" value="Predict" style="width: 80px; border-radius: 7px;">
+</form>
+<h2 style="color: aliceblue;">{{data}}</h2>
+</div>
+</body>
+</html>
